@@ -2,7 +2,7 @@ import pdfplumber
 import streamlit as st
 import openai
 import io
-openai.api_key = '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'
+openai.api_key = 'KEY'
 model_name = 'gpt-3.5-turbo'
 def search_openai(query,num=5):
     response = openai.Completion.create(
